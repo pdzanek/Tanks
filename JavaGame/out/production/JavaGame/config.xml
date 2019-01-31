@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<settings>
+        <serverPort>2222</serverPort>
+        <maxClientsCount>4</maxClientsCount>
+</settings>
