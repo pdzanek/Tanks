@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6356c0b8-6d6a-46cc-9dc8-2c5ae6afd2b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaGame/src/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Bullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Chat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Client/MulticastListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/MulticastListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/ProtocolPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/ProtocolPacket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/ServerSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/ServerSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/Tanks$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Tanks$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/Tanks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Tanks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MulticastListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MulticastListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProtocolPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProtocolPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServerSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServerSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tanks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tanks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGame/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/Bullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/ClientSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/ClientSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/GameStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/GameStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/ProtocolPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/ProtocolPacket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGame/src/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/src/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGame/src/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/src/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGame/src/ClientSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/src/ClientSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGame/src/GameStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/src/GameStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGame/src/ProtocolPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/src/ProtocolPacket.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="519">
               <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MulticastListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+            <state relative-caret-position="352">
+              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tanks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2737">
-              <caret line="167" column="38" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
+            <state relative-caret-position="185">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,7 +134,6 @@
     <findStrings>
       <find>paint</find>
       <find>bulle</find>
-      <find>bullet</find>
       <find>close</find>
       <find>tick</find>
       <find>directio</find>
@@ -183,6 +156,8 @@
       <find>tex</find>
       <find>chat</find>
       <find>system</find>
+      <find>bullet</find>
+      <find>bu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -296,6 +271,14 @@
       <option name="presentableId" value="Default" />
       <updated>1547794276177</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added chat and bullets.">
+      <created>1549307444375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549307444375</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -318,7 +301,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -361,6 +344,10 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.015991472" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added chat and bullets." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added chat and bullets." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Chat_Client/src/chat_client/client_frame.java" />
@@ -431,30 +418,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ServerSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tanks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="167" column="38" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -492,10 +459,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tanks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MulticastListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+        <state relative-caret-position="352">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

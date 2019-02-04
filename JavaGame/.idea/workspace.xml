@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72a91e02-5eb2-4660-aabe-865a44f3b5f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Bullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Chat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/MulticastListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/MulticastListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/ProtocolPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/ProtocolPacket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/ServerSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/ServerSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Tanks$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Tanks$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Tanks.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Tanks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/MulticastListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/MulticastListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/ProtocolPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/ProtocolPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/ServerSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/ServerSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Tanks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Tanks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/Bullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/ClientSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/ClientSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/GameStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/GameStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/ProtocolPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/ProtocolPacket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClientSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProtocolPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProtocolPacket.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="120" column="35" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
+            <state relative-caret-position="207">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,7 +101,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="17">
               <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -185,6 +159,7 @@
       <find>set</find>
       <find>system</find>
       <find>message</find>
+      <find>cha</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -240,7 +215,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549307403795" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549307621726" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -441,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="120" column="35" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
+        <state relative-caret-position="207">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -451,7 +426,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="17">
           <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />

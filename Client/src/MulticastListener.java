@@ -36,6 +36,7 @@ public class MulticastListener implements Runnable {
                     for (int i = 0; i < packetReceived.positions.size(); i++) {
                         game.otherTanks.get(i).setPositionColorAndDirection(packetReceived.positions.get(i), packetReceived.colors.get(i), packetReceived.directions.get(i));
                     }
+                    game.change=true;
                 }
             } catch (IOException | ClassNotFoundException e) {
                 e.printStackTrace();
