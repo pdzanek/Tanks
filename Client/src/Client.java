@@ -7,9 +7,9 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 
 public class Client {
-       static ObjectInputStream ois;
-    static ObjectOutputStream oos;
-       static int connectionNumber;
+    static ObjectInputStream ois;
+        static ObjectOutputStream oos;
+        static int connectionNumber;
 
     public static void main(String[] args) {
         try {
@@ -31,10 +31,8 @@ public class Client {
         } catch (ConnectException e) {
             System.out.println("Serwer niedostępny...");
             System.exit(1);
-        } catch (UnknownHostException e) {
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+        } catch (UnknownHostException ignored) {
+        } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
         JFrame frame = new JFrame("Tanks");
@@ -48,10 +46,11 @@ public class Client {
         listenerThread.start();
         Thread senderThread=new Thread(new ServerSender(game,oos,ois));
         senderThread.start();
-        //Chat chat = new Chat(300,720);
+        Chat chat = new Chat(game);
+        Thread chatThread = new Thread(chat);
+        chatThread.start();
         frame.add(game, BorderLayout.CENTER);
-        //frame.add(chat,BorderLayout.LINE_END);
-
+        game.setChat(chat);
         game.start();
         frame.setVisible(true);
 

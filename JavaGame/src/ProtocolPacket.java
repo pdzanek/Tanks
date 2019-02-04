@@ -5,23 +5,30 @@ import java.util.List;
 
 public class ProtocolPacket implements Serializable {
     private static final long serialVersionUID = 6529685098267757690L;
-    String message;
-    Point position;
+    String message="";
     int positionX;
     int positionY;
-    String direction="";
-    Color tankColor=null;
+    String direction;
+    Color tankColor;
     int connectionNumber;
-    List<Point> positions;
-    List<String> directions;
+    java.util.List<Point> positions;
+    java.util.List<String> directions;
     List<Color> colors;
-    List<Bullet> bullets;
+    int bulletPositionX=0;
+    int bulletPositionY=0;
+    int bulletMovementX=0;
+    int bulletMovementY=0;
 
     public ProtocolPacket(String message){
         this.message=message;
     }
 
-    public ProtocolPacket(GameStatus gs,int connectionNumber){
+    public ProtocolPacket(GameStatus gs,int bulletPositionX, int bulletPositionY, int bulletMovementX, int bulletMovementY,int connectionNumber, String message){
+        this.message=message;
+        this.bulletPositionX=bulletPositionX;
+        this.bulletPositionY=bulletPositionY;
+        this.bulletMovementX=bulletMovementX;
+        this.bulletMovementY=bulletMovementY;
         positions=new ArrayList<>();
         directions=new ArrayList<>();
         colors = new ArrayList<>();

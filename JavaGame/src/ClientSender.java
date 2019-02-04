@@ -20,10 +20,15 @@ public class ClientSender extends Thread {
         GameStatus gs = Server.gs;
         while (true) {
             try {
-                oos.writeObject(new ProtocolPacket(gs, connectionNumber));
+                if(gs.checkForBullet(connectionNumber)) {
+                    oos.writeObject(new ProtocolPacket(gs,gs.getBulletPosX(connectionNumber),gs.getBulletPosY(connectionNumber),gs.getBulletMovX(connectionNumber),gs.getBulletMovY(connectionNumber), connectionNumber,gs.getMessage(connectionNumber)));
+                    gs.eraseBullet(connectionNumber);
+                }else {
+                    oos.writeObject(new ProtocolPacket(gs, 0, 0, 0, 0, connectionNumber, gs.getMessage(connectionNumber)));
+                }
                 Thread.sleep(20);
             } catch (IOException | InterruptedException e) {
-                e.printStackTrace();
+                //
             }
         }
     }

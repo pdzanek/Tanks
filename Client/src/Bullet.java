@@ -21,6 +21,11 @@ public class Bullet {
             movement = new Point(-1, 0);
             this.position.translate(position.x+movement.x*radius/2-game.player.width,position.y+movement.y*radius/2-2); }
         }
+     public Bullet(Tanks game,Point position,Point movement){
+        this.game=game;
+        this.position=position;
+        this.movement=movement;
+     }
 
     public void tick(double deltatime){
        position.translate((int)(movement.x*(speed*deltatime)),(int)(movement.y*(speed*deltatime)));
@@ -30,7 +35,7 @@ public class Bullet {
        Rectangle ballHitbox = new Rectangle(position.x-radius,position.y-radius, radius*2,radius*2);
        if(playerHitbox.intersects(ballHitbox)) {
            game.player.position.translate(1600, 1600);
-           game.positionChanged=true;
+           game.change=true;
        }
     }
     public void render(Graphics g){

@@ -31,16 +31,25 @@ public class ClientHandler extends Thread{
     public void run(){
         GameStatus gs=Server.gs;
         while(true){
-            ProtocolPacket packet = new ProtocolPacket("");
+            ProtocolPacket packet;
             try {
-                packet.position=null;
                 packet= (ProtocolPacket) ois.readObject();
                 if(packet!=null){
-                        System.out.println(packet.bullets.size()+"");
-                    gs.setTank(packet.connectionNumber, packet.tankColor, packet.direction, new Point(packet.positionX,packet.positionY),packet.bullets);
+                    if(packet.bulletPositionX==0 && packet.bulletPositionY==0) {
+                        gs.setTank(packet.connectionNumber, packet.tankColor, packet.direction, new Point(packet.positionX, packet.positionY));
+                        if(packet.message.equals("")){}else {
+                            gs.setMessages("Player "+connectionNumber+" :"+packet.message);
+                        }
+                    }
+                    else {
+                        gs.setTankWithBullet(packet.connectionNumber, packet.tankColor, packet.direction, new Point(packet.positionX, packet.positionY), new Point(packet.bulletPositionX, packet.bulletPositionY), new Point(packet.bulletMovementX, packet.bulletMovementY));
+                        if(packet.message.equals("")){} else {
+                            gs.setMessages("Player "+connectionNumber+" :"+packet.message);
+                        }
+                    }
                 }
             } catch (IOException | ClassNotFoundException e) {
-                e.printStackTrace();
+                //
             }
         }
     }

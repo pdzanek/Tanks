@@ -15,10 +15,14 @@ public class Tanks extends JPanel {
     volatile java.util.List<OtherTank> otherTanks;
     volatile java.util.List<Bullet> bullets;
     private Block[] blocks;
-    volatile boolean positionChanged;
+    volatile boolean change;
+    volatile boolean isBulletFired=false;
+    volatile Bullet bulletFired;
+    volatile public String messageToSend="";
+    Chat chat;
 
     public Tanks(int width, int height){
-        positionChanged=true;
+        change=true;
         this.width = width;
         this.height = height;
         player=new PlayerTank(this,Client.connectionNumber);
@@ -36,8 +40,9 @@ public class Tanks extends JPanel {
                 if(e.getKeyCode()==KeyEvent.VK_SPACE && isRunning) {
                     if(Math.abs(lastBulletFired-System.currentTimeMillis())>1000) {
                         if(!(player.position.x>1300 && player.position.y>1300)) {
-                            bullets.add(new Bullet(thisGame, player.direction, player.position));
-                            positionChanged=true;
+                            bulletFired= new Bullet(thisGame,player.direction,player.position);
+                            change=true;
+                            isBulletFired=true;
                             lastBulletFired = System.currentTimeMillis();
                         }
                     }
@@ -48,25 +53,25 @@ public class Tanks extends JPanel {
                     if(player.position.y<-330){}
                     else player.position.y=player.position.y-5;
                     player.direction="up";
-                    positionChanged=true;
+                    change=true;
                 }
                 if(e.getKeyCode()==KeyEvent.VK_DOWN){
                     if(player.position.y>300){}
                     else player.position.y=player.position.y+5;
                     player.direction="down";
-                    positionChanged=true;
+                    change=true;
                 }
                 if(e.getKeyCode()==KeyEvent.VK_LEFT){
                     if(player.position.x<-610){}
                     else player.position.x=player.position.x-5;
                     player.direction="left";
-                    positionChanged=true;
+                    change=true;
                 }
                 if(e.getKeyCode()==KeyEvent.VK_RIGHT){
                     if(player.position.x>605){}
                     else player.position.x=player.position.x+5;
                     player.direction="right";
-                    positionChanged=true;
+                    change=true;
                 }
             }
         });
@@ -162,10 +167,11 @@ public class Tanks extends JPanel {
                         iterator.remove();
                     }else b.render(g);
             }
-            g.setFont(new Font("TimesRoman", Font.PLAIN, 70));
-            if(player.position.x>1300 && player.position.y>1300) g.drawString("Your tank is destroyed", -400,-000);
         }
 
     public void start() {
+    }
+    public void setChat(Chat chat){
+        this.chat=chat;
     }
 }

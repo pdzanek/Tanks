@@ -15,14 +15,20 @@ public class ServerSender implements Runnable {
     }
     @Override
     public void run() {
+        ProtocolPacket packet;
         System.out.println("Sender: Thread Running");
-        int i = 0;
         while (shouldRun) {
-            i++;
             try {
-                if (game.positionChanged) {
-                    game.positionChanged = false;
-                   ProtocolPacket packet = new ProtocolPacket(game.bullets,game.player,"chat message");
+                if (game.change) {
+                    game.change = false;
+                   if(game.isBulletFired) {
+                       packet = new ProtocolPacket(game.player,game.bulletFired,game.messageToSend);
+                       game.messageToSend="";
+                   }else{
+                       packet = new ProtocolPacket(game.player,game.messageToSend);
+                       game.messageToSend="";
+                   }
+                    game.isBulletFired=false;
                     oos.writeObject(packet);
                 }
             } catch (IOException e) {
