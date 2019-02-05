@@ -4,11 +4,11 @@ import java.net.Socket;
 
 public class ClientHandler extends Thread{
     final Socket s;
-    final ObjectInputStream ois;
-    final ObjectOutputStream oos;
-    int connectionNumber;
+    private final ObjectInputStream ois;
+    private final ObjectOutputStream oos;
+    private int connectionNumber;
 
-    public  ClientHandler(Socket s,ObjectInputStream ois, ObjectOutputStream oos, int connectionNumber){
+    ClientHandler(Socket s, ObjectInputStream ois, ObjectOutputStream oos, int connectionNumber){
         this.s=s;
         this.ois=ois;
         this.oos=oos;
@@ -37,13 +37,13 @@ public class ClientHandler extends Thread{
                 if(packet!=null){
                     if(packet.bulletPositionX==0 && packet.bulletPositionY==0) {
                         gs.setTank(packet.connectionNumber, packet.tankColor, packet.direction, new Point(packet.positionX, packet.positionY));
-                        if(packet.message.equals("")){}else {
+                        if (!packet.message.equals("")) {
                             gs.setMessages("Player "+connectionNumber+" :"+packet.message);
                         }
                     }
                     else {
                         gs.setTankWithBullet(packet.connectionNumber, packet.tankColor, packet.direction, new Point(packet.positionX, packet.positionY), new Point(packet.bulletPositionX, packet.bulletPositionY), new Point(packet.bulletMovementX, packet.bulletMovementY));
-                        if(packet.message.equals("")){} else {
+                        if (!packet.message.equals("")) {
                             gs.setMessages("Player "+connectionNumber+" :"+packet.message);
                         }
                     }

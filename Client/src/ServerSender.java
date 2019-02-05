@@ -7,7 +7,7 @@ public class ServerSender implements Runnable {
     private ObjectOutputStream oos;
     private ObjectInputStream ois;
     Boolean shouldRun=true;
-    Tanks game;
+    private Tanks game;
     ServerSender(Tanks game, ObjectOutputStream oos, ObjectInputStream ois){
         this.oos=oos;
         this.ois=ois;

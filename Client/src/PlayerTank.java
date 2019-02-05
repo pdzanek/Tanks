@@ -12,28 +12,25 @@ public class PlayerTank {
     public PlayerTank(Tanks game, int connectionNumber) {
         this.game = game;
         this.connectionNumber = connectionNumber;
-        if (connectionNumber == 1){
-            this.position = new Point(610,305);
-            this.direction="up";
-            this.tankColor=Color.black;
+        if (connectionNumber == 1) {
+            this.position = new Point(610, 305);
+            this.direction = "up";
+            this.tankColor = Color.black;
+        } else if (connectionNumber == 2) {
+            this.position = new Point(-615, 305);
+            this.direction = "right";
+            this.tankColor = Color.red;
+        } else if (connectionNumber == 3) {
+            this.position = new Point(-615, -335);
+            this.direction = "down";
+            this.tankColor = Color.green;
+        } else {
+            this.position = new Point(610, -335);
+            this.direction = "left";
+            this.tankColor = Color.pink;
         }
-        else if(connectionNumber==2){
-            this.position=new Point(-615,305);
-            this.direction="right";
-            this.tankColor=Color.red;
-        }
-        else if(connectionNumber==3){
-            this.position=new Point(-615,-335);
-            this.direction="down";
-            this.tankColor=Color.green;
-        }
-        else if(connectionNumber==4){
-            this.position=new Point(610,-335);
-            this.direction="left";
-            this.tankColor=Color.pink;
-        }
-        else System.exit(1);
-        }
+    }
+
 
     public void render(Graphics g) throws Exception {
 

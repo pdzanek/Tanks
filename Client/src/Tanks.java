@@ -6,22 +6,22 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Tanks extends JPanel {
-    public int width, height;
-    Tanks thisGame = this;
+    int width, height;
+    private Tanks thisGame = this;
     private int tickrate=30;
-    static public PlayerTank player;
-    private boolean isRunning = true, isPaused = false;
+    static PlayerTank player;
+    boolean isRunning = true, isPaused = false;
     private long lastUpdate;
     volatile java.util.List<OtherTank> otherTanks;
     volatile java.util.List<Bullet> bullets;
-    private Block[] blocks;
+    Block[] blocks;
     volatile boolean change;
     volatile boolean isBulletFired=false;
     volatile Bullet bulletFired;
     volatile public String messageToSend="";
     Chat chat;
 
-    public Tanks(int width, int height){
+    Tanks(int width, int height){
         change=true;
         this.width = width;
         this.height = height;
@@ -50,26 +50,30 @@ public class Tanks extends JPanel {
                 if(e.getKeyCode()==KeyEvent.VK_ESCAPE) togglePause();
                 if(e.getKeyCode()==KeyEvent.VK_Q) quit();
                 if(e.getKeyCode()==KeyEvent.VK_UP){
-                    if(player.position.y<-330){}
-                    else player.position.y=player.position.y-5;
+                    if (player.position.y >= -330) {
+                        player.position.y=player.position.y-5;
+                    }
                     player.direction="up";
                     change=true;
                 }
                 if(e.getKeyCode()==KeyEvent.VK_DOWN){
-                    if(player.position.y>300){}
-                    else player.position.y=player.position.y+5;
+                    if (player.position.y <= 300) {
+                        player.position.y=player.position.y+5;
+                    }
                     player.direction="down";
                     change=true;
                 }
                 if(e.getKeyCode()==KeyEvent.VK_LEFT){
-                    if(player.position.x<-610){}
-                    else player.position.x=player.position.x-5;
+                    if (player.position.x >= -610) {
+                        player.position.x=player.position.x-5;
+                    }
                     player.direction="left";
                     change=true;
                 }
                 if(e.getKeyCode()==KeyEvent.VK_RIGHT){
-                    if(player.position.x>605){}
-                    else player.position.x=player.position.x+5;
+                    if (player.position.x <= 605) {
+                        player.position.x=player.position.x+5;
+                    }
                     player.direction="right";
                     change=true;
                 }
@@ -77,19 +81,19 @@ public class Tanks extends JPanel {
         });
     }
 
-    public void run() {
+    private void run() {
         gameThread.start();
     }
 
-    public void togglePause() {
+    void togglePause() {
         isPaused = !isPaused;
     }
 
-    public void quit() {
+    void quit() {
         isRunning=false;
     }
 
-    Thread gameThread = new Thread(() -> {
+    private Thread gameThread = new Thread(() -> {
         //init
         isRunning = true;
         isPaused = false;
@@ -112,7 +116,7 @@ public class Tanks extends JPanel {
         }
     });
 
-    private void createBlocks(int rows, int columns) {
+    void createBlocks(int rows, int columns) {
         blocks = new Block[rows * columns];
         int gap = 178;
         float h =50;
@@ -131,7 +135,7 @@ public class Tanks extends JPanel {
     }
 
 
-    public void tick(){
+    private void tick(){
         double deltatime = (System.nanoTime()-lastUpdate)/1000000.0;
         for(Bullet b:bullets)
         b.tick(deltatime);
@@ -169,9 +173,9 @@ public class Tanks extends JPanel {
             }
         }
 
-    public void start() {
+    void start() {
     }
-    public void setChat(Chat chat){
+    void setChat(Chat chat){
         this.chat=chat;
     }
 }

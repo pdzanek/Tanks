@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6356c0b8-6d6a-46cc-9dc8-2c5ae6afd2b6" name="Default Changelist" comment="rucham psa jak sra">
-      <change afterPath="$PROJECT_DIR$/tests/TanksTest.java" afterDir="false" />
+    <list default="true" id="6356c0b8-6d6a-46cc-9dc8-2c5ae6afd2b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/ChatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaGame/tests/MessageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/META-INF/Client.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Block.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Chat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client/PlayerTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/PlayerTank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client/ServerSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/ServerSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client/Tanks$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Tanks$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client/Tanks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Tanks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlayerTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServerSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServerSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tanks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tanks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TanksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TanksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaGame/JavaGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/JavaGame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/LoadConfigFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/out/production/JavaGame/LoadConfigFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaGame/src/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/src/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaGame/src/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/src/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaGame/src/LoadConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGame/src/LoadConfigFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +36,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Client$Client.ic" NAME="Client Coverage Results" MODIFIED="1548931633415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Client$Client.ic" NAME="Client Coverage Results" MODIFIED="1549369208832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="15" />
@@ -24,22 +44,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProtocolPacket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            <state relative-caret-position="570">
+              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MulticastListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="-161">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServerSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="213">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,20 +82,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tanks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="2048">
+              <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3065#3066#0" expanded="true" />
+                <element signature="e#3099#3100#0" expanded="true" />
+                <element signature="e#3132#3133#0" expanded="true" />
+                <element signature="e#3168#3169#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/TanksTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +110,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+            <state relative-caret-position="-196">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/ChatTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Block.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="97" selection-start-line="15" selection-start-column="97" selection-end-line="15" selection-end-column="97" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -119,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bullet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+            <state relative-caret-position="76">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -128,8 +152,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PlayerTank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="9">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -149,7 +173,6 @@
       <find>paint</find>
       <find>bulle</find>
       <find>close</find>
-      <find>tick</find>
       <find>directio</find>
       <find>direction</find>
       <find>inte</find>
@@ -172,6 +195,9 @@
       <find>system</find>
       <find>bullet</find>
       <find>bu</find>
+      <find>system.ex</find>
+      <find>tick</find>
+      <find>setChat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,19 +212,21 @@
         <option value="$PROJECT_DIR$/src/SoundPlayer.java" />
         <option value="$PROJECT_DIR$/src/DataPacket.java" />
         <option value="$PROJECT_DIR$/src/BulletTest.groovy" />
-        <option value="$PROJECT_DIR$/src/Block.java" />
         <option value="$PROJECT_DIR$/../../Projects/Server/src/Server.java" />
         <option value="$PROJECT_DIR$/src/GameStatus.java" />
-        <option value="$PROJECT_DIR$/src/PlayerTank.java" />
         <option value="$PROJECT_DIR$/src/OtherTank.java" />
-        <option value="$PROJECT_DIR$/src/Bullet.java" />
         <option value="$PROJECT_DIR$/src/ProtocolPacket.java" />
-        <option value="$PROJECT_DIR$/src/Tanks.java" />
         <option value="$PROJECT_DIR$/src/Client.java" />
-        <option value="$PROJECT_DIR$/src/Chat.java" />
-        <option value="$PROJECT_DIR$/src/ServerSender.java" />
         <option value="$PROJECT_DIR$/src/MulticastListener.java" />
+        <option value="$PROJECT_DIR$/tests/PlayerTankTest.java" />
+        <option value="$PROJECT_DIR$/src/PlayerTank.java" />
+        <option value="$PROJECT_DIR$/tests/ChatTest.java" />
         <option value="$PROJECT_DIR$/tests/TanksTest.java" />
+        <option value="$PROJECT_DIR$/src/Chat.java" />
+        <option value="$PROJECT_DIR$/src/Block.java" />
+        <option value="$PROJECT_DIR$/src/Bullet.java" />
+        <option value="$PROJECT_DIR$/src/Tanks.java" />
+        <option value="$PROJECT_DIR$/src/ServerSender.java" />
       </list>
     </option>
   </component>
@@ -228,11 +256,6 @@
               <item name="Client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -244,7 +267,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549364493082" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549371461216" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -275,12 +298,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TanksTest">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="Client" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Client" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChatTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTankTest.PlayerTank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Client" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTankTest" />
+      <option name="METHOD_NAME" value="PlayerTank(Tanks,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -295,7 +336,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChatTest" />
         <item itemvalue="JUnit.TanksTest" />
+        <item itemvalue="JUnit.PlayerTankTest.PlayerTank" />
       </list>
     </recent_temporary>
   </component>
@@ -317,21 +360,53 @@
       <option name="project" value="LOCAL" />
       <updated>1549307444375</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="rucham psa jak sra">
+      <created>1549364462699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549364462699</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rucham psa jak sra">
+      <created>1549364657502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549364657502</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TanksTest - 2019.02.05 at 11h 57m 52s.xml">
+    <history-entry file="TanksTest - 2019.02.05 at 12h 39m 24s.xml">
       <configuration name="TanksTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TanksTest - 2019.02.05 at 11h 58m 12s.xml">
+    <history-entry file="TanksTest - 2019.02.05 at 13h 13m 47s.xml">
       <configuration name="TanksTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TanksTest - 2019.02.05 at 11h 58m 34s.xml">
+    <history-entry file="TanksTest - 2019.02.05 at 13h 14m 12s.xml">
       <configuration name="TanksTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TanksTest - 2019.02.05 at 12h 00m 14s.xml">
+    <history-entry file="TanksTest - 2019.02.05 at 13h 14m 50s.xml">
       <configuration name="TanksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TanksTest - 2019.02.05 at 13h 15m 02s.xml">
+      <configuration name="TanksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TanksTest - 2019.02.05 at 13h 15m 22s.xml">
+      <configuration name="TanksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TanksTest - 2019.02.05 at 13h 15m 54s.xml">
+      <configuration name="TanksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TanksTest - 2019.02.05 at 13h 16m 30s.xml">
+      <configuration name="TanksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChatTest - 2019.02.05 at 13h 27m 27s.xml">
+      <configuration name="ChatTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChatTest - 2019.02.05 at 13h 36m 40s.xml">
+      <configuration name="ChatTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -368,7 +443,7 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.015991472" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -377,14 +452,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.312026" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.312026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -395,12 +470,13 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.015991472" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.015991472" />
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added chat and bullets." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added chat and bullets." />
+    <MESSAGE value="rucham psa jak sra" />
+    <option name="LAST_COMMIT_MESSAGE" value="rucham psa jak sra" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Chat_Client/src/chat_client/client_frame.java" />
@@ -471,61 +547,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client.java">
+    <entry file="file://$PROJECT_DIR$/tests/PlayerTankTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="97" selection-start-line="15" selection-start-column="97" selection-end-line="15" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bullet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayerTank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="9">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MulticastListener.java">
+    <entry file="file://$PROJECT_DIR$/src/Bullet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="76">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -534,8 +590,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tanks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="2048">
+          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3065#3066#0" expanded="true" />
+            <element signature="e#3099#3100#0" expanded="true" />
+            <element signature="e#3132#3133#0" expanded="true" />
+            <element signature="e#3168#3169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MulticastListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -544,8 +634,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/TanksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ChatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

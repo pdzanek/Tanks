@@ -1,12 +1,12 @@
 import java.awt.*;
 
-public class Block {
-    Color blockColor=Color.darkGray;
-    public Point position = new Point(0,0);
-    public int width=50;
-    public int height=50;
+class Block {
+    private Color blockColor=Color.darkGray;
+    Point position = new Point(0,0);
+    int width=50;
+    int height=50;
 
-    public void render(Graphics g){
+    void render(Graphics g){
         g.setColor(blockColor);
         g.fillRect(position.x,position.y,width,height);
 

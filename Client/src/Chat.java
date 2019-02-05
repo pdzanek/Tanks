@@ -13,9 +13,9 @@ import javax.swing.UIManager.LookAndFeelInfo;
 
 public class Chat extends Thread{
     volatile String text="";
-    Tanks game;
+    private Tanks game;
     final JTextArea t1 = new JTextArea(10, 10);
-    public Chat(Tanks game) {
+    Chat(Tanks game) {
         initComponents();
         this.game=game;
     }
@@ -28,10 +28,9 @@ public class Chat extends Thread{
                     break;
                 }
             }
-        } catch (Exception e) {
+        } catch (Exception ignored) {
         }
         javax.swing.SwingUtilities.invokeLater(() -> {
-            Chat chat = new Chat(game);
         });
     }
     private void initComponents() {
@@ -77,8 +76,7 @@ public class Chat extends Thread{
         p2.add(b1, gc2);
 
         b1.addActionListener(ev -> {
-            String textReaded=t2.getText();
-            game.messageToSend=textReaded;
+            game.messageToSend= t2.getText();
             t2.setText("");
             game.change=true;
         });

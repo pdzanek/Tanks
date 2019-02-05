@@ -3,7 +3,7 @@ import java.awt.*;
 public class Bullet {
     Point position;
     Point movement;
-    int connectionNumber;
+    private int connectionNumber;
     Bullet(Point position,Point movement){
         this.position=position;
         this.movement=movement;
